@@ -1,7 +1,9 @@
 {
   "project_info": {
     "project_number": "1055731919157",
+
     "firebase_url": "https://dkj-automotive-default-rtdb.firebaseio.com",
+
     "project_id": "dkj-automotive",
     "storage_bucket": "dkj-automotive.appspot.com"
   },
