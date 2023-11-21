@@ -13,14 +13,19 @@
         android:theme="@style/Theme.JDK"
         tools:targetApi="31">
         <activity
-            android:name=".View.MainActivity"
-            android:exported="true">
+            android:name=".View.SplashcreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/title_activity_splashcreen"
+            android:theme="@style/Theme.JDK.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="false" />
     </application>
-
 </manifest>
